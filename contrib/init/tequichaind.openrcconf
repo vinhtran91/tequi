@@ -1,0 +1,33 @@
+# /etc/conf.d/tequichaind: config file for /etc/init.d/tequichaind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tequichaincore/tequichain.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tequichaind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tequichaind.pid"
+
+# Where to write tequichaind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tequichaind"
+
+# User and group to own tequichaind process
+#BITCOIND_USER="tequichaincore"
+#BITCOIND_GROUP="tequichaincore"
+
+# Path to tequichaind executable
+#BITCOIND_BIN="/usr/bin/tequichaind"
+
+# Nice value to run tequichaind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for tequichaind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

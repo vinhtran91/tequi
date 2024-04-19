@@ -1,0 +1,22 @@
+[Unit]
+Description=Tequichain's distributed currency daemon
+After=network.target
+
+[Service]
+User=tequichaincore
+Group=tequichaincore
+
+Type=forking
+PIDFile=/var/lib/tequichaind/tequichaind.pid
+ExecStart=/usr/bin/tequichaind -daemon -pid=/var/lib/tequichaind/tequichaind.pid \
+-conf=/etc/tequichaincore/tequichain.conf -datadir=/var/lib/tequichaind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

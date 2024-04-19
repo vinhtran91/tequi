@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[tequichain.qt-translation-012x]
+file_filter = src/qt/locale/tequichain_<lang>.ts
+source_file = src/qt/locale/tequichain_en.ts
+source_lang = en

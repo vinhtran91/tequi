@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tequichain Core
+Comment=Tequichain P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Tequichain peer-to-peer Netzwerk
+Comment[fr]=Tequichain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Tequichain, eşten eşe kriptografik sanal para birimi
+Exec=tequichain-qt %u
+Terminal=false
+Type=Application
+Icon=tequichain128
+MimeType=x-scheme-handler/tequichain;
+Categories=Office;Finance;

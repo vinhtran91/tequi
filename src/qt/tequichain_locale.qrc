@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/tequichain_ar.qm</file>
+        <file alias="bg">locale/tequichain_bg.qm</file>
+        <file alias="de">locale/tequichain_de.qm</file>
+        <file alias="en">locale/tequichain_en.qm</file>
+        <file alias="es">locale/tequichain_es.qm</file>
+        <file alias="fi">locale/tequichain_fi.qm</file>
+        <file alias="fr">locale/tequichain_fr.qm</file>
+        <file alias="it">locale/tequichain_it.qm</file>
+        <file alias="ja">locale/tequichain_ja.qm</file>
+        <file alias="ko">locale/tequichain_ko.qm</file>
+        <file alias="nl">locale/tequichain_nl.qm</file>
+        <file alias="pl">locale/tequichain_pl.qm</file>
+        <file alias="pt">locale/tequichain_pt.qm</file>
+        <file alias="ro">locale/tequichain_ro.qm</file>
+        <file alias="ru">locale/tequichain_ru.qm</file>
+        <file alias="sk">locale/tequichain_sk.qm</file>
+        <file alias="th">locale/tequichain_th.qm</file>
+        <file alias="tr">locale/tequichain_tr.qm</file>
+        <file alias="vi">locale/tequichain_vi.qm</file>
+        <file alias="zh_CN">locale/tequichain_zh_CN.qm</file>
+        <file alias="zh_TW">locale/tequichain_zh_TW.qm</file>
+    </qresource>
+</RCC>
